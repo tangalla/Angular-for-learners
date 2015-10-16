@@ -2,16 +2,11 @@
 
 /**
  * @ngdoc function
- * @name angularForLearnersApp.controller:MainCtrl
+ * @name employeeInfoApp.controller:MainCtrl
  * @description
  * # MainCtrl
- * Controller of the angularForLearnersApp
+ * Controller of the employeeInfoApp
  */
-angular.module('angularForLearnersApp')
+angular.module('employeeInfoApp')
   .controller('MainCtrl', function () {
-    this.awesomeThings = [
-      'HTML5 Boilerplate',
-      'AngularJS',
-      'Karma'
-    ];
   });

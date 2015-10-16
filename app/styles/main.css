@@ -1,0 +1,108 @@
+.browsehappy {
+  margin: 0.2em 0;
+  background: #ccc;
+  color: #000;
+  padding: 0.2em 0;
+}
+
+body {
+  padding: 0;
+}
+
+/* Everything but the jumbotron gets side spacing for mobile first views */
+.header,
+.marketing,
+.footer {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+/* Custom page header */
+.header {
+  margin-bottom: 10px !important;
+}
+/* Make the masthead heading the same height as the navigation */
+.header h3 {
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 40px;
+  padding-bottom: 19px;
+}
+
+/* Custom page footer */
+.footer {
+  padding-top: 19px;
+  color: #777;
+}
+
+.container-narrow > hr {
+  margin: 30px 0;
+}
+
+/* Main marketing message and sign up button */
+.jumbotron .btn {
+  padding: 10px;
+}
+
+/* Responsive: Portrait tablets and up */
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 730px;
+  }
+
+  /* Remove the padding we set earlier */
+  .header,
+  .marketing,
+  .footer {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  /* Space out the masthead */
+  .header {
+    margin-bottom: 30px;
+  }
+  /* Remove the bottom border on the jumbotron for visual effect */
+  .jumbotron {
+    border-bottom: 0;
+  }
+}
+.dashboard-summary {
+	width: 100%;
+	max-width: 100%;
+	background-color: transparent;
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+.dashboard-summary-td {
+	padding: 0px 10px;
+	border-right: 1px solid #ddd;
+	text-align: center;
+	word-wrap: break-word;
+}
+
+.dashboard-summary-td-left {
+	padding: 0px 0px;
+	text-align: center;
+	word-wrap: break-word;
+}
+
+.dashboard-summary-td-left-top {
+	padding: 0px 15px;
+	font-size: 20px;
+	font-weight: bold;
+	text-align: center;
+	word-wrap: break-word;
+}
+
+.dashboard-summary-td-top {
+	padding: 25px 15px;
+	border-right: 1px solid #ddd;
+	font-size: 40px;
+	font-weight: bold;
+	text-align: center;
+	word-wrap: break-word;
+}
+.navbar {
+    margin-bottom: 10px !important;
+}

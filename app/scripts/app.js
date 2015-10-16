@@ -2,14 +2,14 @@
 
 /**
  * @ngdoc overview
- * @name angularForLearnersApp
+ * @name employeeInfoApp
  * @description
- * # angularForLearnersApp
+ * # employeeInfoApp
  *
  * Main module of the application.
  */
 angular
-  .module('angularForLearnersApp', [
+  .module('employeeInfoApp', [
     'ngAnimate',
     'ngCookies',
     'ngResource',
@@ -24,10 +24,18 @@ angular
         controller: 'MainCtrl',
         controllerAs: 'main'
       })
-      .when('/about', {
-        templateUrl: 'views/about.html',
-        controller: 'AboutCtrl',
-        controllerAs: 'about'
+      .when('/getEmployee', {
+        templateUrl: 'views/get-employee.html',
+        controller: 'GetEmployeeCtrl',
+        controllerAs: 'employee'
+      })
+      .when('/getSalary', {
+        templateUrl: 'views/get-salary.html',
+        controller: 'GetSalaryCtrl',
+        controllerAs: 'salary'
+      })
+      .when('/getEmployeeAndSalary', {
+        templateUrl: 'views/get-employee-salary.html'
       })
       .otherwise({
         redirectTo: '/'
